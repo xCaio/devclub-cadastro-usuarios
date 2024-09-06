@@ -21,9 +21,9 @@ function Home() {
     <div className='container'>
       <form>
         <h1>Cadastro de usuários</h1>
-        <input name="name" type='text' />
-        <input name="age" type='number' />
-        <input name="email" type='email' />
+        <input placeholder='Name' name="name" type='text' />
+        <input placeholder='Age' name="age" type='number' />
+        <input placeholder="E-mail" name="email" type='email' />
         <button type='button'>Cadastrar</button>
       </form>
 
